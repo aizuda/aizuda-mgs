@@ -1,5 +1,7 @@
 # mgs
 
+[下载地址](https://github.com/aizuda/aizuda-mgs/releases)
+
 #### 介绍
 
 mgs 基础 api 服务
