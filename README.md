@@ -123,7 +123,7 @@ POST 支持 JSON 格式，接口 http://localhost:9000/v1/test/key2pdf
 > yaml 配置 system 属性 ipDat
 
 接口 /v1/search/ip
-参数 search 电话号码
+参数 search ip地址
 
 测试地址  http://localhost:9000/v1/search/ip?search=17.10.101.116
 
