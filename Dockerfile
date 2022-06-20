@@ -1,6 +1,7 @@
 FROM ubuntu:20.04
 
-MAINTAINER chenjh "1649991905@qq.com"
+MAINTAINER chenjh "842761733@qq.com"
+MAINTAINER nn200433 "1649991905@qq.com"
 
 COPY mgs-linux /opt/mgs-linux/
 
