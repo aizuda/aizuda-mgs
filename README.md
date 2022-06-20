@@ -98,14 +98,14 @@ POST 支持 JSON 格式，接口 http://localhost:9000/v1/test/key2pdf
 |---------|-------------------------|
 | url     | 接口地址                    |
 | path    | 本地路径                    |
-| preview | 是否支持文件浏览 false 否 true 是 |
+| preview | 是否支持文件目录浏览 false 否 true 是，为 true 是访问 `files` 路径将展示文件列表 |
 
 # 视频文件分析
 
 > 需要下载 ffprobe 配置 yaml 配置 system 属性 ffprobe 或 配置环境变量
 
 接口 /v1/video/probe
-参数 search 电话号码
+参数 search 视频地址
 
 测试地址  http://localhost:9000/v1/video/probe?url=https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/byted-player-videos/1.0.0/xgplayer-demo-720p.mp4
 
